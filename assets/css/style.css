@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+ .row{
+    display: flex;
+    justify-content: space-around;
+ }
+ .col-6{
+    width: 50%;
+ }
+ #nav-bar{
+    align-items: center;
+    height:60px ;
+    border-top: 2px solid red;
+    margin-top: 10px;
+    padding-top: 20px;
+ }
+#nav-bar .right ul{
+    display: flex;
+}
+#nav-bar .right ul li{
+    padding-left: 20px;
+    color: black;
+}
+#nav-bar .left a{
+    font-size: 20px;
+    color: black;
+}
+#nav-bar .right a {
+     text-decoration: none;
+     font-size: 15px;
+     color: black;
+}
+
+#main .img{
+    background-image: url("/assets/img/luca-bravo-ujhKqutt3f0-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+}
+#main .img h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+}
+#main .img .line{
+    width: 50px;
+    height: 2px;
+    background-color: #f4623a;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 20px 0 ;
+}
+#main .img p{
+    color: #d3d0ce;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#main .img button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #f4623a;
+    border: none;
+}
+#main .img button a{
+    color: white;
+}
